@@ -1,8 +1,8 @@
 {
   "name": "code",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Development project",
+  "main": "index.html",
   "scripts": {
     "dev": "live-server --port=3000 --host=0.0.0.0 --no-browser",
     "build": "echo 'No build script configured yet.'",
@@ -10,5 +10,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
